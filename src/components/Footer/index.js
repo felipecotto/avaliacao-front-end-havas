@@ -1,9 +1,10 @@
 import React from "react"
+import * as S from "./styled"
 
 const Footer = () => (
-    <div>
+    <S.Footer>
         Footer
-    </div>
+    </S.Footer>
 )
 
 export default Footer

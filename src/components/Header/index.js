@@ -1,9 +1,10 @@
 import React from "react"
+import * as S from "./styled"
 
 const Header = () => (
-    <div>
+    <S.Header>
         Header
-    </div>
+    </S.Header>
 )
 
 export default Header
