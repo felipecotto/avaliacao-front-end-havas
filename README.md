@@ -42,3 +42,5 @@ A busca pode ficar mais dinâmica e performática também.
 
 As Features poderiam ter sido feitas em Branchs separadas. 
 
+Padrão e indentação do código.
+
