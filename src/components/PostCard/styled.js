@@ -16,13 +16,10 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: baseline;
+margin-bottom: 32px; 
 &:hover {
     box-shadow: 0 16px 32px rgba(12, 13, 20, 0.08);
 }
-@media (max-width: 992px) {
-    margin: 0;
-    margin-bottom: 32px; 
-  }
 `
 
 export const PostCardTitle = styled.h3`

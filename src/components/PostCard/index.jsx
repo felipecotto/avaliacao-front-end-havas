@@ -12,7 +12,7 @@ const PostCard = (props) => (
     <S.PostCard>
         <S.PostCardTitle>{props.title}</S.PostCardTitle>
         <S.PostCardBody>{props.body}</S.PostCardBody>
-        <S.PostCardLink to={props.link}>Modus Create</S.PostCardLink>
+        <S.PostCardLink to={props.link}>Leia Agora</S.PostCardLink>
     </S.PostCard>
 )
 

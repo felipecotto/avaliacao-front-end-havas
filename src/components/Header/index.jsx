@@ -1,18 +1,16 @@
 import React from "react"
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch } from "react-router-dom";
 import * as S from "./styled"
 
 const Header = () => (
     <S.Header>
          <div className="container">
-            <Router>
-                <S.HeaderNav>
-                    <S.HeaderLi>
-                        <S.HeaderLink to="/">Home</S.HeaderLink>
-                        <S.HeaderLink to="/posts">Posts</S.HeaderLink>
-                    </S.HeaderLi>
-                </S.HeaderNav>
-            </Router>
+            <S.HeaderNav>
+                <S.HeaderLi>
+                    <S.HeaderLink href="/">Home</S.HeaderLink>
+                    <S.HeaderLink href="/posts">Posts</S.HeaderLink>
+                </S.HeaderLi>
+            </S.HeaderNav>
          </div>
     </S.Header>
 )

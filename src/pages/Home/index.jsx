@@ -32,7 +32,8 @@ class Home extends Component {
         { this.state.posts.slice(0,3).map(post => 
           <PostCard
             title={post.title}
-            body={post.body}>
+            body={post.body}
+            link={`/posts/${post.id}`}>
           </PostCard>
         )}
         </S.FlexGrid>
