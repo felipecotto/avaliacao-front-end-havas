@@ -22,7 +22,7 @@ Você precisa do Node e Npm instalado para executar o projeto.
 
 O Projeto usa o React como Lib de Javascript, para os estilos foi usado styled-components e para o consumo de apis axios. 
 
-Link da publicação: 
+Link da projeto: https://master.d2kuckgq93pd5k.amplifyapp.com/
 
 ### Possíveis otimizações
 
