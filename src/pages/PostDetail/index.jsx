@@ -1,8 +1,8 @@
 import React, { Component } from "react"
-import API from '../../utils/ApiService';
+import { Link } from "react-router-dom";
 import axios from 'axios';
 
-class Home extends Component {
+class PostDetail extends Component {
   state = {
     posts: []
   }
@@ -14,20 +14,16 @@ class Home extends Component {
         this.setState({ posts });
         console.log(posts)
       })
-  }
+    }
 
   render() {
     return (
-      <>
-        { this.state.posts.map(post => 
-            <div>
-                <h3>{post.title}</h3>
-                <p>{post.body}</p>
-            </div>
-        )}
-      </>
-    )
+      <div>
+        PostDetail
+        <Link to="/posts">Posts</Link>
+      </div>
+      )
+    }
   }
-}
 
-export default Home
+export default PostDetail

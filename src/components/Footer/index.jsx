@@ -3,7 +3,9 @@ import * as S from "./styled"
 
 const Footer = () => (
     <S.Footer>
-        Footer
+        <div className="container">
+            <span>Footer</span>
+        </div>
     </S.Footer>
 )
 
