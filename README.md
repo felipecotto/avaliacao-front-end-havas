@@ -14,8 +14,23 @@ Em seguida rode o comando:
 
 A aplicação ira iniciar na no endereço: http://localhost:3000/ e pode ser visualizada no Browser.
 
-## Dependência
+## Dependências
 
 Você precisa do Node e Npm instalado para executar o projeto.
 
+## Sobre o Projeto
 
+O Projeto usa o React como Lib de Javascript, para os estilos foi usado styled-components e para o consumo de apis axios. 
+
+Link da publicação: 
+
+### Possíveis otimizações
+
+O Projeto pode ter uma melhor componentização, o consumo da API também deveria estar centralizado em um único lugar (Base URL) o que facilita a manutenção.
+Adicionar loadings para melhorar os feedbacks para os usuários.
+
+### O que você poderia ter melhorado
+
+As rotas em geral, em alguns pontos por questão de tempo acabei usando o elemento <a></a> ao invés do <Link></Link> do react-router, isso deixaria a aplicação mais dinâmica sem refresh na tela.
+A página de post precisa receber uma paginação também para não trazer os 100 posts de uma vez.
+A busca pode ficar mais dinâmica e performática também.
